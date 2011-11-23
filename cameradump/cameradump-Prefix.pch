@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cameradump' target in the 'cameradump' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
