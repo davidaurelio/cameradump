@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63CB6978147E5DCB00C527BA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CB6977147E5DCB00C527BA /* AppKit.framework */; };
 		63F4C6F5147D2D4300E77C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F4C6F4147D2D4300E77C54 /* Foundation.framework */; };
 		63F4C6F8147D2D4300E77C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4C6F7147D2D4300E77C54 /* main.m */; };
 		63F4C6FC147D2D4300E77C54 /* cameradump.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63F4C6FB147D2D4300E77C54 /* cameradump.1 */; };
+		63F4C703147D34DF00E77C54 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F4C702147D34DF00E77C54 /* QTKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63CB6977147E5DCB00C527BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		63F4C6F0147D2D4300E77C54 /* cameradump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cameradump; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F4C6F4147D2D4300E77C54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63F4C6F7147D2D4300E77C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63F4C6FA147D2D4300E77C54 /* cameradump-Prefix.pch */ = {isa = PBXFileReference; path = "cameradump-Prefix.pch"; sourceTree = "<group>"; };
+		63F4C6FA147D2D4300E77C54 /* cameradump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameradump-Prefix.pch"; sourceTree = "<group>"; };
 		63F4C6FB147D2D4300E77C54 /* cameradump.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cameradump.1; sourceTree = "<group>"; };
+		63F4C702147D34DF00E77C54 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CB6978147E5DCB00C527BA /* AppKit.framework in Frameworks */,
+				63F4C703147D34DF00E77C54 /* QTKit.framework in Frameworks */,
 				63F4C6F5147D2D4300E77C54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,8 @@
 		63F4C6E5147D2D4300E77C54 = {
 			isa = PBXGroup;
 			children = (
+				63CB6977147E5DCB00C527BA /* AppKit.framework */,
+				63F4C702147D34DF00E77C54 /* QTKit.framework */,
 				63F4C6F6147D2D4300E77C54 /* cameradump */,
 				63F4C6F3147D2D4300E77C54 /* Frameworks */,
 				63F4C6F1147D2D4300E77C54 /* Products */,
@@ -230,6 +238,7 @@
 				63F4C701147D2D4300E77C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
